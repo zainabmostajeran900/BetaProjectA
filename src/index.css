@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@font-face {
+    font-family: ;
+    src: url();
+}
+:root {
+    direction: rtl;
+    font-family: ;
+}
