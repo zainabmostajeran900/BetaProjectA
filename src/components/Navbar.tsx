@@ -39,13 +39,13 @@ export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md py-3 px-6 font-bold fixed z-50 top-0">
-      <div className="max-w-[1600px] mx-auto flex items-center justify-between">
+    <nav className="w-full h-19  bg-white shadow-md py-3 px-8 font-bold fixed z-50 top-0">
+      <div className="max-w-[1400px] mx-auto flex items-center justify-between">
         <div className="w-[140px]">
           <img src="/HAJIIJA.png" alt="Logo" />
         </div>
 
-        <div className="hidden md:flex bg-gray-200 gap-x-6 items-center py-2 px-6 shadow-md rounded-lg">
+        <div className="hidden  md:max-w-[700px] md:flex md:justify-center md:items-center  bg-gray-200 gap-x-3 md:gap-x-6 items-center py-2 px-6 shadow-md rounded-lg">
           <button>صفحه اصلی</button>
           <span className="text-gray-400">|</span>
           <button>اقامتگاه</button>
@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <button className="py-1.5 px-4 bg-[#4156D9] text-white rounded-lg">
             ورود کاربر خریدار
           </button>
