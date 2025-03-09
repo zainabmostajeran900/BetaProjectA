@@ -1,6 +1,6 @@
 export const SearchInput: React.FC = () => {
   return (
-    <div className=" block  lg:flex items-center justify-between  bg-gray-100 px-8 py-6">
+    <div className="block lg:flex items-center justify-between  bg-gray-100 px-8 py-6">
         <div className="relative">
           <input
             type="text"
@@ -15,7 +15,7 @@ export const SearchInput: React.FC = () => {
             <img src="/public/input-prefix.svg" alt="" />
           </div> */}
         </div>
-      <div className=" flex justify-between items-center md:justify-center gap-x-4 font-bold text-sm">
+      <div className=" flex justify-between items-center md:justify-center gap-x-4 font-bold text-sm pt-4 lg:pt-0">
         <div className="flex justify-between  bg-white rounded-lg ">
           <div className="flex items-center justify-center pr-3 py-2 rounded-lg">
             <img src="/public/heart.png" alt="" />
