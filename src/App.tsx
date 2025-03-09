@@ -2,6 +2,7 @@ import {Navbar} from "./components/Navbar";
 import {TopHeader} from "./components/TopHeader";
 import {SearchInput} from "./components/SearchInput";
 import {HotMagazine} from "./components/HotMagazine";
+import {NewMagazine} from "./components/NewMagazine";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <TopHeader/>
     <SearchInput/>
     <HotMagazine/>
+    <NewMagazine/>
     </div>
     </>
   );

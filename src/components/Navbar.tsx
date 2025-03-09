@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav className="w-full h-19  bg-white shadow-md py-3 px-8 font-bold fixed z-50 top-0">
-      <div className="max-w-[1400px] mx-auto flex items-center justify-between">
+      <div className="max-w-[1400px] mx-auto flex items-center justify-between py-2 md:py-0">
         <div className="w-[140px]">
           <img src="/HAJIIJA.png" alt="Logo" />
         </div>
@@ -69,7 +69,7 @@ export const Navbar: React.FC = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden flex flex-col bg-white shadow-md py-4 px-6 mt-2 rounded-lg">
+        <div className="md:hidden flex flex-col bg-gray-100 shadow-md py-4 px-6 mt-2 rounded-lg ">
           <button className="py-2">صفحه اصلی</button>
           <button className="py-2">اقامتگاه</button>
           <button className="py-2 bg-[#4156D9] text-white rounded-lg">مقالات</button>
