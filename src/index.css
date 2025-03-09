@@ -1,9 +1,10 @@
 @import "tailwindcss";
 @font-face {
-    font-family: ;
-    src: url();
+  font-family: IranSans;
+  src: url("/public/iransansX\ family/IRANSansX-Regular.ttf");
+  font-display: block;
 }
 :root {
-    direction: rtl;
-    font-family: ;
+  direction: rtl;
+  font-family: IranSans;
 }
