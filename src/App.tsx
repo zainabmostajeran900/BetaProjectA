@@ -3,6 +3,10 @@ import { TopHeader } from "./components/TopHeader";
 import { SearchInput } from "./components/SearchInput";
 import { HotMagazine } from "./components/HotMagazine";
 import { NewMagazine } from "./components/NewMagazine";
+import { BlogsComponent } from "./components/BlogsComponent";
+import { OldBlogs } from "./components/OldBlogs";
+import { Pagination } from "./components/Pagination";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -18,7 +22,11 @@ function App() {
         </div>
         <HotMagazine />
         <NewMagazine />
+        <BlogsComponent />
+        <OldBlogs />
+        <Pagination />
       </div>
+      <Footer/>
     </>
   );
 }

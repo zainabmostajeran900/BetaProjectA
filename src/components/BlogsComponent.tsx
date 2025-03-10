@@ -10,7 +10,7 @@ export const BlogsComponent: React.FC = () => {
         <div className="md:bg-white rounded-t-xl py-5 md:px-4 lg:px-8 flex gap-2 lg:gap-8 justify-between md:justify-normal w-full md:w-[25rem] lg:w-[30rem]">
           <button className="bg-[#343434] text-white md:py-2 px-3 pl-6 md:px-6 rounded-md flex gap-1 items-center text-sm lg:text-base">
             <img
-              src="./assets/images/timer.svg"
+              src="/public/timer.svg"
               alt="timer"
               className="w-4 h-4"
             />

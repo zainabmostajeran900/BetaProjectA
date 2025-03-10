@@ -3,28 +3,28 @@ export const blogData = [
     title: "مدرن ترین هتل های تهران",
     description:
       "ویلای تریپلکس سوییسی واقع در لوکیشنی استثنایی در منطقه جنگلی بهمنان در فاصله ۶ کیلومتری از مرکز شهر زیرآب فاصله تا سوپرمارکت ۱۰۰۰ متر چشم انداز جنگل زیبایی دارد که حیرت انگیزه ...",
-    image: "./assets/images/Rectangle 7047.svg",
+    image: "../../public/Rectangle 7047.svg",
     date: "1403/02/10",
   },
   {
     title: "بهترین اقامتگاه در تهران کجاست؟",
     description:
       "ویلای تریپلکس سوییسی واقع در لوکیشنی استثنایی در منطقه جنگلی بهمنان در فاصله ۶ کیلومتری از مرکز شهر زیرآب فاصله تا سوپرمارکت ۱۰۰۰ متر چشم انداز جنگل زیبایی دارد که حیرت انگیزه ...",
-    image: "./assets/images/Rectangle 7051.svg",
+    image: "../../public/Rectangle 7051.svg",
     date: "1403/02/10",
   },
   {
     title: "تاپ ترین هتل اسپیناس پالاس در صدر جدول!",
     description:
       "ویلای تریپلکس سوییسی واقع در لوکیشنی استثنایی در منطقه جنگلی بهمنان در فاصله ۶ کیلومتری از مرکز شهر زیرآب فاصله تا سوپرمارکت ۱۰۰۰ متر چشم انداز جنگل زیبایی دارد که حیرت انگیزه ...",
-    image: "./assets/images/Rectangle 7054 (1).svg",
+    image: "../../public/Rectangle 7054 (1).svg",
     date: "1403/02/10",
   },
   {
     title: "اصفهان جزو برترین شهر توریستی جهان شناخته شد",
     description:
       "ویلای تریپلکس سوییسی واقع در لوکیشنی استثنایی در منطقه جنگلی بهمنان در فاصله ۶ کیلومتری از مرکز شهر زیرآب فاصله تا سوپرمارکت ۱۰۰۰ متر چشم انداز جنگل زیبایی دارد که حیرت انگیزه ...",
-    image: "./assets/images/Rectangle 7054.svg",
+    image: "../../public/Rectangle 7054.svg",
     date: "1403/02/10",
   },
 ];
@@ -34,64 +34,64 @@ export const places = [
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 136.svg",
+    image: "../../public/Rectangle 136.svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 75.svg",
+    tag: "../../public/Group 75.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 142.svg",
+    image: "../../public/Rectangle 142.svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 75.svg",
+    tag: "../../public/Group 75.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 136 (1).svg",
+    image: "../../public/Rectangle 136 (1).svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 69.svg",
+    tag: "../../public/Group 69.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 142.svg",
+    image: "../../public/Rectangle 142.svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 75.svg",
+    tag: "../../public/Group 75.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 142.svg",
+    image: "../../public/Rectangle 142.svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 75.svg",
+    tag: "../../public/Group 75.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 136 (1).svg",
+    image: "../../public/Rectangle 136 (1).svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 69.svg",
+    tag: "../../public/Group 69.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 142.svg",
+    image: "../../public/Rectangle 142.svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 75.svg",
+    tag: "../../public/Group 75.svg",
   },
   {
     title: "مدرن ترین هتل های تهران",
     description:
       "لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم لورم اپیسوم...",
-    image: "./assets/images/Rectangle 136.svg",
+    image: "../../public/Rectangle 136.svg",
     date: "1403/02/10",
-    tag: "./assets/images/Group 69.svg",
+    tag: "../../public/Group 69.svg",
   },
 ];
