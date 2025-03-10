@@ -1,5 +1,5 @@
 import { places } from "../data/data";
-export const NewMagazine: React.FC = () => {
+export const OldBlogs: React.FC = () => {
   return (
     <>
       <div className="md:mt-20">
