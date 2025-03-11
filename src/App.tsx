@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container max-w-[1400px] pt-30 lg:pt-19 mx-auto">
+      <div className="container max-w-[1400px] pt-30 lg:pt-19 mx-auto bg-[#F8F8F8]">
         <div className="hidden lg:block">
           <TopHeader />
         </div>
@@ -26,7 +26,10 @@ function App() {
         <OldBlogs />
         <Pagination />
       </div>
-      <Footer/>
+      <div className="bg-[#F8F8F8]">
+        {" "}
+        <Footer />
+      </div>
     </>
   );
 }

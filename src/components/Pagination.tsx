@@ -1,35 +1,35 @@
 export const Pagination: React.FC = () => {
   return (
     <div>
-      <div className="mt-3 md:mt-16 md:mb-20 flex flex-wrap gap-4 items-center justify-center">
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
+      <div className="mt-3 md:mt-16 md:pb-20 flex flex-wrap gap-4 items-center justify-center">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
           <img
-            src="./assets/images/arrow-square-right.svg"
+            src="/public/arrow-square-right.svg"
             alt="back"
             className="p-2 absolute top-1 right-1 md:top-2 md:right-2 text-white text-lg"
           />
         </div>
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
           <span className="absolute top-3.5 right-4.5 md:top-4.5 md:right-5 text-purple-200 font-semibold">
             06
           </span>
         </div>
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
           <span className="absolute top-3.5 right-4.5 md:top-4.5 md:right-5 text-purple-200 font-semibold">
             ...
           </span>
         </div>
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
           <span className="absolute top-3.5 right-4.5 md:top-4.5 md:right-5 text-purple-200 font-semibold">
             04
           </span>
         </div>
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
-          <span className="absolute top-3.5 right-4.5 md:top-4.5 md:right-5 text-purple-200 font-semibold">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
+          <span className="absolute top-3.5 right-4.5 md:top-4.5 md:right-5 text-purple-200 font-semibold ">
             03
           </span>
         </div>
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300">
           <span className="absolute top-3.5 right-4.5 md:top-4.5 md:right-5 text-purple-200 font-semibold">
             02
           </span>
@@ -39,9 +39,9 @@ export const Pagination: React.FC = () => {
             01
           </span>
         </div>
-        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative">
+        <div className="bg-[#EAEAEA] w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-lg relative hover:bg-gray-300 ">
           <img
-            src="./assets/images/arrow-square-left.svg"
+            src="/public/arrow-square-left.svg"
             alt="back"
             className="p-2 absolute top-1 right-1 md:top-2 md:right-2 text-white text-lg"
           />

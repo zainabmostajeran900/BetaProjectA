@@ -1,6 +1,6 @@
 export const Footer: React.FC = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-[#f7f7f7] px-5">
       <div className="mx-auto max-w-[1450px]">
         <div className="flex md:justify-center justify-end">
           <span
@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             }}
           >
             <img
-              src="./assets/images/arrow-circle-up.svg"
+              src="/public/arrow-circle-up.svg"
               alt="arrow-circle-up"
               className="md:w-24 w-12 h-9 md:h-10 relative md:top-1 top-2"
               style={{
@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
             <img
-              src="./assets/images/Group 189.svg"
+              src="/public/Group 189.svg"
               alt="logo"
               className="hidden md:block"
             />
@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
                 </h5>
               </div>
               <img
-                src="./assets/images/arrow-square-next.svg"
+                src="/public/arrow-square-next.svg"
                 alt="next"
                 className="w-6 h-6"
               />{" "}
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
                 </h5>
               </div>
               <img
-                src="./assets/images/arrow-square-next.svg"
+                src="/public/arrow-square-next.svg"
                 alt="next"
                 className="w-6 h-6"
               />{" "}
@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
                 </h5>
               </div>
               <img
-                src="./assets/images/arrow-square-next.svg"
+                src="/public/arrow-square-next.svg"
                 alt="next"
                 className="w-6 h-6"
               />{" "}
@@ -107,7 +107,7 @@ export const Footer: React.FC = () => {
             <div className="space-y-2 md:w-full xl:w-[10%] hidden md:block">
               <div className="flex gap-3 items-center pb-2">
                 <div className="w-1 h-4 rounded-full bg-purple-100"></div>
-                <h5 className="text-[#111111] font-bold text-base">
+                <h5 className="text-[#111111] font-bold text-base text-nowrap">
                   راهنمای مشتریان{" "}
                 </h5>
               </div>
@@ -212,7 +212,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="bg-[#F1F1F1] rounded-lg px-4 py-2.5 flex gap-4 items-center">
                 <div className="bg-white py-3 rounded-lg flex w-12 justify-center">
-                  <img src="./assets/images/call-calling.svg" alt="phone" />
+                  <img src="/public/call-calling.svg" alt="phone" />
                 </div>
                 <p className="text-[#111111] font-semibold text-sm">
                   021 - 88844243
@@ -220,7 +220,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="bg-[#F1F1F1] rounded-lg px-4 py-2.5 flex gap-4 items-center">
                 <div className="bg-white py-3 rounded-lg flex w-12 justify-center">
-                  <img src="./assets/images/sms.svg" alt="phone" />
+                  <img src="/public/sms.svg" alt="phone" />
                 </div>
                 <p className="text-[#111111] font-semibold text-sm">
                   info@hajija.com
@@ -228,7 +228,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="bg-[#F1F1F1] rounded-lg px-4 py-2.5 flex gap-4 items-center">
                 <div className="bg-white py-3 rounded-lg flex w-12 justify-center">
-                  <img src="./assets/images/location.svg" alt="phone" />
+                  <img src="/public/location.svg" alt="phone" />
                 </div>
                 <p className="text-[#111111] font-semibold text-sm">
                   تهران، جردن خیابان مطهری، رو به رو بانک پارسیان
@@ -252,16 +252,13 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex gap-4 justify-center">
                 <div className="bg-[#F1F1F1] rounded-lg px-5 py-2.5 flex justify-center items-center">
-                  <img src="./assets/images/Logo Enamad 1.svg" alt="timer" />
+                  <img src="/public/Logo Enamad 1.svg" alt="timer" />
                 </div>
                 <div className="bg-[#F1F1F1] rounded-lg px-5 py-2.5 flex justify-center items-center">
-                  <img
-                    src="./assets/images/Logo Neshane Meli 1.svg"
-                    alt="timer"
-                  />
+                  <img src="/public/Logo Neshane Meli 1.svg" alt="timer" />
                 </div>
                 <div className="bg-[#F1F1F1] rounded-lg px-5 py-2.5 flex justify-center items-center">
-                  <img src="./assets/images/Logo Enamad 2.svg" alt="timer" />
+                  <img src="/public/Logo Enamad 2.svg" alt="timer" />
                 </div>
               </div>
             </div>
