@@ -1,18 +1,21 @@
+
 import { places } from "../data/data";
+
 export const OldBlogs: React.FC = () => {
   return (
-    <div className="md:mt-20 px-8">
+    <div className="md:mt-20 px-8 overflow-x-hidden">
       <h5 className="text-[#111111] font-bold text-lg mt-6">
         مجله های قدیمی اماکن تفریحی
       </h5>
-      <div className="flex md:grid md:grid-cols-4 gap-3 py-10 overflow-y-auto md:overflow-visible snap-x snap-mandatory md:snap-none scrollbar-none">
+
+      <div className="flex flex-wrap gap-6 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-10 overflow-x-hidden">
         {places.slice(0, 4).map((el, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl p-5 shadow-md w-[20rem] cursor-pointer shrink-0 snap-start md:shrink md:snap-none hover:scale-105 transition-all duration-500 ease-in-out"
+            className="bg-white rounded-2xl p-5 shadow-md w-full xl:max-w-[20rem] shrink-0 cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
           >
             <div className="relative">
-              <img src={el.image} alt={el.title} className="mb-4" />
+              <img src={el.image} alt={el.title} className="mb-4 w-full" />
               <img
                 src={el.tag}
                 alt={el.title}
@@ -35,14 +38,15 @@ export const OldBlogs: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="flex md:grid md:grid-cols-4  gap-3 py-10 overflow-y-auto md:overflow-visible snap-x snap-mandatory md:snap-none scrollbar-none">
+
+      <div className="flex flex-wrap gap-6 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-10 overflow-x-hidden">
         {places.slice(4, 8).map((el, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl p-5 shadow-md w-[20rem] shrink-0 snap-start cursor-pointer md:shrink md:snap-none hover:scale-105 transition-all duration-500 ease-in-out"
+            className="bg-white rounded-2xl p-5 shadow-md w-full xl:max-w-[20rem] shrink-0 cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
           >
             <div className="relative">
-              <img src={el.image} alt={el.title} className="mb-4" />
+              <img src={el.image} alt={el.title} className="mb-4 w-full" />
               <img
                 src={el.tag}
                 alt={el.title}

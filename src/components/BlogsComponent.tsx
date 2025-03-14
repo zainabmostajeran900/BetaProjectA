@@ -7,7 +7,7 @@ export const BlogsComponent: React.FC = () => {
         <h5 className="text-[#111111] font-bold md:text-lg hidden md:block">
           چند روز دیگه بیا مقاله های جذاب بخون!
         </h5>
-        <div className="md:bg-white text-nowrap rounded-t-xl py-5 md:px-4 lg:px-5 flex gap-2 lg:gap-8 justify-between md:justify-normal w-full md:w-[25rem] lg:w-[30rem]">
+        <div className="md:bg-white text-nowrap rounded-t-xl py-5 md:px-4 lg:px-5 flex gap-2 lg:gap-8 justify-between md:justify-normal w-full md:w-auto">
           <button className="bg-[#343434] text-white md:py-2 px-3 pl-6 md:px-6 rounded-md flex gap-1 items-center text-sm lg:text-base">
             <img src="/public/timer.svg" alt="timer" className="w-4 h-4" />
             زمان انتشار{""}
@@ -28,11 +28,11 @@ export const BlogsComponent: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white rounded-r-xl rounded-b-xl hidden md:grid grid-cols-2 p-6 gap-6 mx-5">
+      <div className="bg-white rounded-r-xl rounded-b-xl hidden md:grid grid-cols-1 md:grid-cols-2 p-6 gap-6 mx-5 overflow-x-hidden">
         {blogData.map((el) => (
           <div
             key={el.title}
-            className="bg-[#F8F8F8] p-4 rounded-xl hover:scale-105"
+            className="bg-[#F8F8F8] p-4 rounded-xl hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer"
           >
             <div className="flex gap-6">
               <img src={el.image} alt={el.title} className="w-28 h-24" />
@@ -49,7 +49,7 @@ export const BlogsComponent: React.FC = () => {
         {blogData.map((el) => (
           <div
             key={el.title}
-            className="bg-white rounded-xl p-5 shadow-md w-[22rem] shrink-0 snap-start"
+            className="bg-white rounded-xl p-5 shadow-md w-[20rem] md:w-[22rem] shrink-0 snap-start"
           >
             <img src={el.image} alt={el.title} className="mb-4 w-full" />
             <h5 className="text-base font-bold text-[#111111]">{el.title}</h5>
