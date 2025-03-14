@@ -13,7 +13,7 @@ export const SearchInput: React.FC = () => {
           <img  src="/public/input-prefix.svg" alt="search icon" className="w-5 h-5" />
         </div>
       </div>
-      <div className="flex  justify-between items-center text-[#111111] md:justify-center gap-x-4 font-bold  pt-4 lg:pt-0">
+      <div className="flex flex-col gap-y-5 items-start md:flex  justify-between items-center text-[#111111] md:justify-center gap-x-4 font-bold  pt-4 lg:pt-0">
         <div className="flex justify-between bg-white rounded-lg">
           <div className="flex items-center justify-center pr-3 py-4 rounded-lg cursor-pointer">
             <img src="/public/heart.png" alt="heart icon" />
